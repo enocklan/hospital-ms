@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+form{
+    width: 50%;
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    color: #2ecc71;
+    font-size: 40px;
+    font-weight: 900;
+    /* text-transform: uppercase; */
+}
+hr{
+    width: 100%;
+    height: 5px;
+    border-radius: 10px;
+    border: none;
+    background-color: #ddd;
+    margin: 20px 20px 20px 0px;
+}
+.input-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    color: #3498db90;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+.additional{
+    display: block;
+    color: #2ecc71;
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+select {
+    width: 100%;
+    padding: 8px;
+    font-size: 12px;
+    color: #666;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #fff;
+    cursor: pointer;
+}
+select option{
+    padding: 10px;
+}
+/* Style the arrow icon for non-Chrome browsers */
+select::-ms-expand {
+    display: none;
+}
+
+select:hover {
+    border-color: #2ecc71;
+}
+
+select:focus {
+    outline: none;
+    border-color: #2ecc71;
+}
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 8px;
+    resize: none;
+    color: #666;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+textarea:focus,select:focus{
+    outline: 2px solid #2ecc71;
+}
+.submit{
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    /* border: 1px solid #ddd; */
+    justify-content: flex-end;
+}
+button {
+    background-color: #2ecc71;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    transition: .2s ease-in-out;
+    width: 20%;
+
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+@media only screen and (max-width:800px) {
+    form {
+        width: 98%;
+        padding: 15px;
+    }
+    h2 {
+        text-align: center;
+        color: #2ecc71;
+        font-size: 25px;
+        font-weight: 900;
+        /* text-transform: uppercase; */
+    }
+    .additional {
+        display: block;
+        color: #2ecc71;
+        font-size: 14px;
+        margin-bottom: 8px;
+    }
+
+}

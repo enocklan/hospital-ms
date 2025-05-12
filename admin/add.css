@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f1f1f1;
+}
+
+form {
+    width: 40%;
+    height: auto;
+    padding: 30px;
+    background-color: #fff;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    display: flex;
+    flex-direction: column;
+}
+h1 {
+    font-size: 18px;
+    font-weight: 900;
+    color: #50C878;
+    text-transform: uppercase;
+}
+form .details{
+    height: auto;
+}
+form .details span{
+    color: #50C878;
+    text-decoration: wavy;
+    text-decoration-color: #50C878;
+    text-decoration-line: underline;
+    text-underline-offset: 5px;
+    margin-top: 20px;
+}
+form .details p {
+    font-size: 12px;
+    /* font-weight: 900; */
+    color: #666;
+    font-style: italic;
+    text-transform: capitalize;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+hr {
+    background-color: #ddd;
+    height: 5px;
+    width: 100%;
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+form textarea {
+    margin-top: 20px;
+    width: 100%;
+    padding: 10px;
+    resize: none;
+    padding-left: 10px;
+    font-size: 12px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+ 
+
+.submit_btn {
+    padding: 15px 40px;
+    cursor: pointer;
+    background-color: #50C878;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    border: none;
+    margin-top: 20px;
+    color: #fff;
+}
+ 

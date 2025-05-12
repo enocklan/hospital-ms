@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+/* Add styles for the new sections */
+body {
+    width: 100%;
+    background-color: #f1f1f1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+header {
+    width: 100%;
+    height: 7vh;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header .content {
+    display: flex;
+    width: 80%;
+    height: 7vh;
+    align-items: center;
+}
+
+header .content .logo {
+    width: 70%;
+    /* border: 1px solid red; */
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+header .content .logo h1 {
+    color: #2ecc71;
+    text-shadow: -2px -2px 1px rgba(0, 0, 0, 0.7);
+    font-size: 30px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+}
+
+header .content .logo h1 span {
+    color: #2ecc71;
+    font-family: Bradley Hand ITC;
+    font-weight: 900;
+}
+
+header .content nav {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+    height: 100%;
+}
+
+header .content nav a {
+    font-size: 12px;
+    border-radius: 5px;
+    border-bottom: 2px solid #2ecc71;
+    color: #666;
+    padding: 10px 30px;
+    position: relative;
+    transition: color 0.3s ease-in-out;
+
+}
+
+header .content nav a.login_btn {
+    font-size: 12px;
+    color: #fff;
+    font-weight: 700;
+    border-radius: 0px;
+    border-bottom: none;
+    padding: 10px 30px;
+    background-color: red;
+
+}
+.hero {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.answers{
+    width: 60%;
+    height: auto;
+    padding: 30px;
+    background-color: #fff;
+    margin-top: 10px;
+}
+.question{
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+.question span{
+    background-color: #2ecc71;
+    height: 80px;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 10px 30px ;
+    border-radius: 3px 0px 50px 3px ;
+}
+.question p{
+    font-size: 14px;
+    height: 80px;
+    width: 75%;
+    margin-left: 5%;
+    color: #2ecc71;
+    font-weight: 700;
+    font-style: italic;
+}
+.doctor_answers {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: #f1f1f1;
+    padding: 10px;
+    border-radius: 5px;
+    align-items: center;
+}
+fieldset {
+    width: 100%;
+    margin-top: 20px;
+    border: 1px solid #2ecc7150;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #fff;
+    border: 2px solid #2ecc7170;
+    
+}
+
+fieldset legend {
+    background-color: #2ecc7120;
+    background-color: #fff;
+    border: 2px solid #2ecc7170;
+    padding: 5px 30px;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 900;
+    color: #666;
+    border-radius: 5px;
+    border-bottom: none;
+}
+
+fieldset p {
+    font-size: 12px;
+    color: #666;
+}
